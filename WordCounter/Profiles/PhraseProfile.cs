@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using DTOLibrary.DTOs;
+using DTOsLibrary.DTOs;
 using WordCounter.Models;
 
 namespace WordCounter.Profiles

@@ -7,7 +7,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using Swashbuckle.AspNetCore.Annotations;
 using System.Text.RegularExpressions;
-using DTOLibrary.DTOs;
+using DTOsLibrary.DTOs;
 
 namespace WordCounter.Controllers
 {

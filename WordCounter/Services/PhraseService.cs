@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WordCounter.Repositories;
-using DTOLibrary.DTOs;
+using DTOsLibrary.DTOs;
 using WordCounter.Models;
 using WordCounterAPI.Repositories.UnitOfWork;
 using System.Text.RegularExpressions;

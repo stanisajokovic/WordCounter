@@ -24,8 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary\DTOLibrary.csproj" />
-    <ProjectReference Include="..\DTOLibrary\DTOLibrary.csproj" />
+    <ProjectReference Include="..\DTOsLibrary\DTOsLibrary.csproj" />
   </ItemGroup>
 
   <ItemGroup>

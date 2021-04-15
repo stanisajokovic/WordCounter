@@ -1,5 +1,4 @@
-﻿using DTOLibrary;
-namespace WordCounterClient.UIFactories
+﻿namespace WordCounterClient.UIFactories
 {
     public interface IUIFactory
     {

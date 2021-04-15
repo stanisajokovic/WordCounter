@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using DTOLibrary.DTOs;
+using DTOsLibrary.DTOs;
 
 namespace WordCounterAPI.Services
 {
