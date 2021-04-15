@@ -1,6 +1,6 @@
 ﻿
 
-using ClassLibrary.DTOs;
+using DTOLibrary.DTOs;
 using Newtonsoft.Json;
 using System;
 using System.Net.Http;

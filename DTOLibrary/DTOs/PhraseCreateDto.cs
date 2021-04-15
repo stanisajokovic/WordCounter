@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ClassLibrary.DTOs
+namespace DTOLibrary.DTOs
 {
     public class PhraseCreateDto
     {

@@ -1,6 +1,4 @@
-﻿using ClassLibrary.DTOs;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Identity.Client;
+﻿using DTOLibrary.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;

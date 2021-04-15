@@ -6,6 +6,10 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordCounterAPI", "WordCounter\WordCounterAPI.csproj", "{7FC43919-AF3C-45C6-8CD4-473E87136D74}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordCounterClient", "WordCounterClient\WordCounterClient.csproj", "{70BF5950-1C5F-473C-AAE2-2F1B106CD2F0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7FC43919-AF3C-45C6-8CD4-473E87136D74} = {7FC43919-AF3C-45C6-8CD4-473E87136D74}
+		{4EF5CF62-AD90-4BE8-96C6-FC57C5DABBDA} = {4EF5CF62-AD90-4BE8-96C6-FC57C5DABBDA}
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTOLibrary", "ClassLibrary\DTOLibrary.csproj", "{4EF5CF62-AD90-4BE8-96C6-FC57C5DABBDA}"
 EndProject

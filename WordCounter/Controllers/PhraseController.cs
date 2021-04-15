@@ -1,6 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-using ClassLibrary.DTOs;
 using Microsoft.AspNetCore.Authorization;
 using WordCounterAPI.Services;
 using System.Threading.Tasks;
@@ -8,6 +7,7 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using Swashbuckle.AspNetCore.Annotations;
 using System.Text.RegularExpressions;
+using DTOLibrary.DTOs;
 
 namespace WordCounter.Controllers
 {
