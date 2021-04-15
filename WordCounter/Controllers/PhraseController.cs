@@ -11,7 +11,7 @@ using System.Text.RegularExpressions;
 
 namespace WordCounter.Controllers
 {
-    //[Authorize]
+    [Authorize]
     [Route("api/wordcounter")]
     [ApiController]
     public class PhraseController : ControllerBase

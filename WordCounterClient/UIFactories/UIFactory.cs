@@ -75,7 +75,6 @@ namespace WordCounterClient.UIFactories
                             Console.WriteLine("\t{0}. {1}", option.Choice, option.Description);
                         }
 
-                        // Read until the input is valid.
                         var userChoice = string.Empty;
                         var commandIndex = -1;
                         do
@@ -84,7 +83,6 @@ namespace WordCounterClient.UIFactories
                         }
                         while (!int.TryParse(userChoice, out commandIndex) || commandIndex > options.Length);
 
-                        // Execute the command.
                         options[commandIndex - 1].Execute(authResult, _config.GetValue<string>("BaseUrl"), _httpClient);
                     }
                 }
